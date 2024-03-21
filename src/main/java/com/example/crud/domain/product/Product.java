@@ -34,4 +34,8 @@ public class Product {
     public void setPrice_in_cents(Integer price_in_cents) {
         this.price_in_cents = price_in_cents;
     }
+
+    public void setActive(boolean b) {
+        this.active = b;
+    }
 }
