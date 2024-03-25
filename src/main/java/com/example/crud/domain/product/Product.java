@@ -3,7 +3,6 @@ package com.example.crud.domain.product;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.UUID;
 
 @Table(name="product")
 @Entity(name="product")
@@ -21,6 +20,10 @@ public class Product {
     private Integer price_in_cents;
 
     private Boolean active;
+
+    @ManyToOne
+    @JoinColumn(name = "id_category")
+    private Category category;
 
     public Product(RequestProductDTO requestProduct){
         this.name = requestProduct.name();
