@@ -1,4 +1,5 @@
 # Simple CRUD
+## O projeto foi inicialmente desenvolvido com o auxílio das videoaulas do canal https://www.youtube.com/@kipperdev e agora estou  expandindo com novas funcionalidades.
 This repository contains a simple CRUD project built using Java Spring. The aim of this repository is to practice and share how you can build all CRUD Methods using Java Spring.
 
 This project was build during a [live in my Youtube Channel](https://www.youtube.com/watch?v=tP6wtEaCnSI).
